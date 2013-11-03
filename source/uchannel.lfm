@@ -13,7 +13,7 @@ object fChannel: TfChannel
     Left = 5
     Height = 14
     Top = 1
-    Width = 33
+    Width = 34
     Caption = 'Offset'
     ParentColor = False
   end
@@ -31,7 +31,7 @@ object fChannel: TfChannel
     Left = 8
     Height = 335
     Top = 17
-    Width = 21
+    Width = 24
     Max = 1000
     OnChange = tbOffsetChange
     Orientation = trVertical
@@ -54,28 +54,27 @@ object fChannel: TfChannel
   end
   object RadioButton1: TRadioButton
     Left = 56
-    Height = 22
+    Height = 24
     Top = 247
-    Width = 39
+    Width = 43
     Caption = 'DC'
     Checked = True
     Enabled = False
-    State = cbChecked
     TabOrder = 2
+    TabStop = True
   end
   object RadioButton2: TRadioButton
     Left = 56
-    Height = 22
+    Height = 24
     Top = 268
-    Width = 38
+    Width = 42
     Caption = 'AC'
     Enabled = False
     TabOrder = 3
-    TabStop = False
   end
   object eChannelName: TEdit
     Left = 52
-    Height = 23
+    Height = 24
     Top = 4
     Width = 60
     OnChange = eChannelNameChange
@@ -90,7 +89,6 @@ object fChannel: TfChannel
     BorderWidth = 2
     ButtonColorSize = 16
     ButtonColor = clYellow
-    Color = clBtnFace
   end
   object Timer1: TTimer
     Interval = 100

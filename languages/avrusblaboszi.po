@@ -1,91 +1,91 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
-#: TFCHANNEL.ECHANNELNAME.TEXT
+#: tfchannel.echannelname.text
 msgid "eChannelName"
 msgstr ""
 
-#: TFCHANNEL.LABEL1.CAPTION
+#: tfchannel.label1.caption
 msgid "Spannung"
 msgstr ""
 
-#: TFCHANNEL.LOFFSET.CAPTION
+#: tfchannel.loffset.caption
 msgid "Offset"
 msgstr ""
 
-#: TFCHANNEL.RADIOBUTTON1.CAPTION
+#: tfchannel.radiobutton1.caption
 msgid "DC"
 msgstr ""
 
-#: TFCHANNEL.RADIOBUTTON2.CAPTION
+#: tfchannel.radiobutton2.caption
 msgid "AC"
 msgstr ""
 
-#: TFMAIN.ACINFO.CAPTION
+#: tfmain.acinfo.caption
 msgid "Info"
 msgstr ""
 
-#: TFMAIN.CAPTION
+#: tfmain.caption
 msgid "USB AVR Lab Scope"
 msgstr ""
 
-#: TFMAIN.GROUPBOX1.CAPTION
+#: tfmain.groupbox1.caption
 msgid "Buffer"
 msgstr ""
 
-#: TFMAIN.LABEL1.CAPTION
+#: tfmain.label1.caption
 msgid "s"
 msgstr ""
 
-#: TFMAIN.LABEL2.CAPTION
+#: tfmain.label2.caption
 msgid "Länge"
 msgstr ""
 
-#: TFMAIN.LABEL3.CAPTION
+#: tfmain.label3.caption
 msgid "kSps"
 msgstr ""
 
-#: TFMAIN.LKSPS.CAPTION
+#: tfmain.lksps.caption
 msgid "lkSPS"
 msgstr ""
 
-#: TFMAIN.LSAMPLERATE.CAPTION
+#: tfmain.lsamplerate.caption
 msgid "Sample Rate"
 msgstr ""
 
-#: TFMAIN.LTIME.CAPTION
+#: tfmain.ltime.caption
 msgid "Zeit"
 msgstr ""
 
-#: TFMAIN.LTRIGGERLEVEL.CAPTION
+#: tfmain.ltriggerlevel.caption
 msgid "Trigger Level"
 msgstr ""
 
-#: TFMAIN.LTRIGGERTYPE.CAPTION
+#: tfmain.ltriggertype.caption
 msgid "Trigger Typ"
 msgstr ""
 
-#: TFMAIN.MILANGUAGE.CAPTION
+#: tfmain.milanguage.caption
 msgid "Sprache"
 msgstr ""
 
-#: TFMAIN.MIOPTIONS.CAPTION
+#: tfmain.mioptions.caption
 msgid "Optionen"
 msgstr ""
 
-#: TFMAIN.PANEL1.CAPTION
+#: tfmain.panel1.caption
 msgid "Panel1"
 msgstr ""
 
-#: TFMAIN.SBTRIGGERCONTINUUS.HINT
+#: tfmain.sbtriggercontinuus.hint
 msgid "Kontinuierlich"
 msgstr ""
 
-#: TFMAIN.SBTRIGGERFALLING.HINT
+#: tfmain.sbtriggerfalling.hint
 msgid "Fallende Flanke"
 msgstr ""
 
-#: TFMAIN.SBTRIGGERRAISING.HINT
+#: tfmain.sbtriggerraising.hint
 msgid "Steigende Flanke"
 msgstr ""
 

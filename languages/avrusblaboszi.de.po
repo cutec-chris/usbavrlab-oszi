@@ -9,91 +9,91 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: TFCHANNEL.ECHANNELNAME.TEXT
+#: tfchannel.echannelname.text
 msgid "eChannelName"
 msgstr ""
 
-#: TFCHANNEL.LABEL1.CAPTION
+#: tfchannel.label1.caption
 msgid "Spannung"
 msgstr "Spannung"
 
-#: TFCHANNEL.LOFFSET.CAPTION
+#: tfchannel.loffset.caption
 msgid "Offset"
 msgstr "Offset"
 
-#: TFCHANNEL.RADIOBUTTON1.CAPTION
+#: tfchannel.radiobutton1.caption
 msgid "DC"
 msgstr "DC"
 
-#: TFCHANNEL.RADIOBUTTON2.CAPTION
+#: tfchannel.radiobutton2.caption
 msgid "AC"
 msgstr "AC"
 
-#: TFMAIN.ACINFO.CAPTION
+#: tfmain.acinfo.caption
 msgid "Info"
 msgstr "Info"
 
-#: TFMAIN.CAPTION
+#: tfmain.caption
 msgid "USB AVR Lab Scope"
 msgstr "USB AVR Lab Oszilliskop"
 
-#: TFMAIN.GROUPBOX1.CAPTION
+#: tfmain.groupbox1.caption
 msgid "Buffer"
 msgstr "Buffer"
 
-#: TFMAIN.LABEL1.CAPTION
+#: tfmain.label1.caption
 msgid "s"
 msgstr "s"
 
-#: TFMAIN.LABEL2.CAPTION
+#: tfmain.label2.caption
 msgid "Länge"
 msgstr "Länge"
 
-#: TFMAIN.LABEL3.CAPTION
+#: tfmain.label3.caption
 msgid "kSps"
 msgstr "kSps"
 
-#: TFMAIN.LKSPS.CAPTION
+#: tfmain.lksps.caption
 msgid "lkSPS"
 msgstr ""
 
-#: TFMAIN.LSAMPLERATE.CAPTION
+#: tfmain.lsamplerate.caption
 msgid "Sample Rate"
 msgstr "Sample Rate"
 
-#: TFMAIN.LTIME.CAPTION
+#: tfmain.ltime.caption
 msgid "Zeit"
 msgstr "Zeit"
 
-#: TFMAIN.LTRIGGERLEVEL.CAPTION
+#: tfmain.ltriggerlevel.caption
 msgid "Trigger Level"
 msgstr "Trigger Level"
 
-#: TFMAIN.LTRIGGERTYPE.CAPTION
+#: tfmain.ltriggertype.caption
 msgid "Trigger Typ"
 msgstr "Trigger Typ"
 
-#: TFMAIN.MILANGUAGE.CAPTION
+#: tfmain.milanguage.caption
 msgid "Sprache"
 msgstr "Sprache"
 
-#: TFMAIN.MIOPTIONS.CAPTION
+#: tfmain.mioptions.caption
 msgid "Optionen"
 msgstr "Optionen"
 
-#: TFMAIN.PANEL1.CAPTION
+#: tfmain.panel1.caption
 msgid "Panel1"
 msgstr ""
 
-#: TFMAIN.SBTRIGGERCONTINUUS.HINT
+#: tfmain.sbtriggercontinuus.hint
 msgid "Kontinuierlich"
 msgstr "Kontinuierlich"
 
-#: TFMAIN.SBTRIGGERFALLING.HINT
+#: tfmain.sbtriggerfalling.hint
 msgid "Fallende Flanke"
 msgstr "Fallende Flanke"
 
-#: TFMAIN.SBTRIGGERRAISING.HINT
+#: tfmain.sbtriggerraising.hint
 msgid "Steigende Flanke"
 msgstr "Steigende Flanke"
 
