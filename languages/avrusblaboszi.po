@@ -1,0 +1,128 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: TFCHANNEL.ECHANNELNAME.TEXT
+msgid "eChannelName"
+msgstr ""
+
+#: TFCHANNEL.LABEL1.CAPTION
+msgid "Spannung"
+msgstr ""
+
+#: TFCHANNEL.LOFFSET.CAPTION
+msgid "Offset"
+msgstr ""
+
+#: TFCHANNEL.RADIOBUTTON1.CAPTION
+msgid "DC"
+msgstr ""
+
+#: TFCHANNEL.RADIOBUTTON2.CAPTION
+msgid "AC"
+msgstr ""
+
+#: TFMAIN.ACINFO.CAPTION
+msgid "Info"
+msgstr ""
+
+#: TFMAIN.CAPTION
+msgid "USB AVR Lab Scope"
+msgstr ""
+
+#: TFMAIN.GROUPBOX1.CAPTION
+msgid "Buffer"
+msgstr ""
+
+#: TFMAIN.LABEL1.CAPTION
+msgid "s"
+msgstr ""
+
+#: TFMAIN.LABEL2.CAPTION
+msgid "Länge"
+msgstr ""
+
+#: TFMAIN.LABEL3.CAPTION
+msgid "kSps"
+msgstr ""
+
+#: TFMAIN.LKSPS.CAPTION
+msgid "lkSPS"
+msgstr ""
+
+#: TFMAIN.LSAMPLERATE.CAPTION
+msgid "Sample Rate"
+msgstr ""
+
+#: TFMAIN.LTIME.CAPTION
+msgid "Zeit"
+msgstr ""
+
+#: TFMAIN.LTRIGGERLEVEL.CAPTION
+msgid "Trigger Level"
+msgstr ""
+
+#: TFMAIN.LTRIGGERTYPE.CAPTION
+msgid "Trigger Typ"
+msgstr ""
+
+#: TFMAIN.MILANGUAGE.CAPTION
+msgid "Sprache"
+msgstr ""
+
+#: TFMAIN.MIOPTIONS.CAPTION
+msgid "Optionen"
+msgstr ""
+
+#: TFMAIN.PANEL1.CAPTION
+msgid "Panel1"
+msgstr ""
+
+#: TFMAIN.SBTRIGGERCONTINUUS.HINT
+msgid "Kontinuierlich"
+msgstr ""
+
+#: TFMAIN.SBTRIGGERFALLING.HINT
+msgid "Fallende Flanke"
+msgstr ""
+
+#: TFMAIN.SBTRIGGERRAISING.HINT
+msgid "Steigende Flanke"
+msgstr ""
+
+#: umain.strchannel
+msgid "Kanal "
+msgstr ""
+
+#: umain.strerrorconnectingtodevice
+msgid "Fehler beim verbinden zum Gerät"
+msgstr ""
+
+#: umain.strinfo
+msgid ""
+"www:  http://www.ullihome.de\n"
+"mail: christian@ullihome.de\n"
+"\n"
+"Lizenz:\n"
+"Die Software und ihre Dokumentation wird wie sie ist zur\n"
+"Verfuegung gestellt. Da Fehlfunktionen auch bei ausfuehrlich\n"
+"getesteter Software durch die Vielzahl an verschiedenen\n"
+"Rechnerkonfigurationen niemals ausgeschlossen werden koennen,\n"
+"uebernimmt der Autor keinerlei Haftung fuer jedwede Folgeschaeden,\n"
+"die sich durch direkten oder indirekten Einsatz der Software\n"
+"oder der Dokumentation ergeben. Uneingeschraenkt ausgeschlossen\n"
+"ist vor allem die Haftung fuer Schaeden aus entgangenem Gewinn,\n"
+"Betriebsunterbrechung, Verlust von Informationen und Daten und\n"
+"Schaeden an anderer Software, auch wenn diese dem Autor bekannt\n"
+"sein sollten. Ausschliesslich der Benutzer haftet fuer Folgen der\n"
+"Benutzung dieser Software.\n"
+"\n"
+"erstellt mit Freepascal + Lazarus\n"
+"http://www.freepascal.org, http://lazarus.freepascal.org\n"
+"Iconset von:\n"
+"http://www.famfamfam.com/lab/icons/silk/\n"
+msgstr ""
+
+#: umain.strnooszilloscopeconnected
+msgid "kein USB AVR Lab Oszilloskop verbunden"
+msgstr ""
+

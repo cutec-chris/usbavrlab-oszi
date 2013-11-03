@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=USB AVR Lab Oszilloskop
+Type=Application
+Terminal=false
+Exec=usbavrlaboszi
+Icon=usbavrlaboszi.png

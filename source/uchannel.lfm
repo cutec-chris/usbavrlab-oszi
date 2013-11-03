@@ -1,0 +1,101 @@
+object fChannel: TfChannel
+  Left = 0
+  Height = 355
+  Top = 0
+  Width = 115
+  ClientHeight = 355
+  ClientWidth = 115
+  TabOrder = 0
+  Visible = False
+  DesignLeft = 552
+  DesignTop = 284
+  object lOffset: TLabel
+    Left = 5
+    Height = 14
+    Top = 1
+    Width = 33
+    Caption = 'Offset'
+    ParentColor = False
+  end
+  object Label1: TLabel
+    Left = 40
+    Height = 27
+    Top = 64
+    Width = 63
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Spannung'#13#10'/ div'
+    ParentColor = False
+  end
+  object tbOffset: TTrackBar
+    Left = 8
+    Height = 335
+    Top = 17
+    Width = 21
+    Max = 1000
+    OnChange = tbOffsetChange
+    Orientation = trVertical
+    Position = 498
+    TickMarks = tmTopLeft
+    TickStyle = tsNone
+    Anchors = [akTop, akLeft, akBottom]
+    TabOrder = 0
+  end
+  object udVoltage: TUpDown
+    Left = 53
+    Height = 40
+    Top = 97
+    Width = 46
+    Min = 1
+    Position = 10
+    TabOrder = 1
+    Wrap = False
+    OnClick = udVoltageClick
+  end
+  object RadioButton1: TRadioButton
+    Left = 56
+    Height = 22
+    Top = 247
+    Width = 39
+    Caption = 'DC'
+    Checked = True
+    Enabled = False
+    State = cbChecked
+    TabOrder = 2
+  end
+  object RadioButton2: TRadioButton
+    Left = 56
+    Height = 22
+    Top = 268
+    Width = 38
+    Caption = 'AC'
+    Enabled = False
+    TabOrder = 3
+    TabStop = False
+  end
+  object eChannelName: TEdit
+    Left = 52
+    Height = 23
+    Top = 4
+    Width = 60
+    OnChange = eChannelNameChange
+    TabOrder = 4
+    Text = 'eChannelName'
+  end
+  object cbColor: TColorButton
+    Left = 52
+    Height = 25
+    Top = 32
+    Width = 58
+    BorderWidth = 2
+    ButtonColorSize = 16
+    ButtonColor = clYellow
+    Color = clBtnFace
+  end
+  object Timer1: TTimer
+    Interval = 100
+    OnTimer = Timer1Timer
+    left = 10
+    top = 25
+  end
+end

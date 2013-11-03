@@ -1,0 +1,497 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="7"/>
+    <General>
+      <Flags>
+        <AlwaysBuild Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <TargetFileExt Value=".exe"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N Value="True"/>
+      <OutDir Value="..\languages"/>
+    </i18n>
+    <VersionInfo>
+      <AutoIncrementBuild Value="True"/>
+      <MinorVersionNr Value="1"/>
+      <RevisionNr Value="1"/>
+      <BuildNr Value="1004"/>
+      <StringTable Comments="" CompanyName="" FileDescription="USB AVR Lab Oszilloscope" FileVersion="0.1.1.1000" InternalName="" LegalCopyright="2008 C.Ulrich" LegalTrademarks="" OriginalFilename="" ProductName="" ProductVersion="0.1.0.0"/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <CommandLineParams Value="--debug-log=debug.log"/>
+        <LaunchingApplication PathPlusParams="\usr\X11R6\bin\xterm -T 'Lazarus Run Output' -e $(LazarusDir)\tools\runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="2">
+      <Item1>
+        <PackageName Value="general"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+    </RequiredPackages>
+    <Units Count="49">
+      <Unit0>
+        <Filename Value="avrusblaboszi.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="avrusblaboszi"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="16"/>
+        <UsageCount Value="92"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="umain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fMain"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uMain"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="249"/>
+        <CursorPos X="1" Y="254"/>
+        <UsageCount Value="92"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\Oszi\ufrmOscilloscope4.pas"/>
+        <UnitName Value="ufrmOscilloscope4"/>
+        <TopLine Value="175"/>
+        <CursorPos X="12" Y="7"/>
+        <UsageCount Value="9"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\Oszi\uColorFunctions.pas"/>
+        <UnitName Value="uColorFunctions"/>
+        <TopLine Value="1"/>
+        <CursorPos X="39" Y="89"/>
+        <UsageCount Value="9"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <TopLine Value="1041"/>
+        <CursorPos X="15" Y="1057"/>
+        <UsageCount Value="9"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\..\Programme\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <TopLine Value="1713"/>
+        <CursorPos X="3" Y="1734"/>
+        <UsageCount Value="9"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="Oszi\uColorFunctions.pas"/>
+        <UnitName Value="uColorFunctions"/>
+        <TopLine Value="37"/>
+        <CursorPos X="15" Y="9"/>
+        <UsageCount Value="9"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="uchannel.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fChannel"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UnitName Value="uChannel"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="261"/>
+        <CursorPos X="1" Y="281"/>
+        <UsageCount Value="87"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\..\..\lazarus\fpc\2.2.2\source\rtl\objpas\classes\compon.inc"/>
+        <TopLine Value="313"/>
+        <CursorPos X="1" Y="329"/>
+        <UsageCount Value="9"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\..\..\lazarus\fpc\2.2.2\source\rtl\inc\except.inc"/>
+        <TopLine Value="177"/>
+        <CursorPos X="1" Y="193"/>
+        <UsageCount Value="9"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\..\..\..\lazarus\lcl\customtimer.pas"/>
+        <UnitName Value="CustomTimer"/>
+        <TopLine Value="167"/>
+        <CursorPos X="1" Y="183"/>
+        <UsageCount Value="11"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\..\..\..\lazarus\fpc\2.2.2\source\rtl\inc\heap.inc"/>
+        <TopLine Value="1177"/>
+        <CursorPos X="1" Y="1192"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\..\..\..\lazarus\fpc\2.2.2\source\rtl\inc\system.inc"/>
+        <TopLine Value="843"/>
+        <CursorPos X="26" Y="861"/>
+        <UsageCount Value="9"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\..\..\..\lazarus\fpc\2.2.2\source\rtl\inc\objpas.inc"/>
+        <TopLine Value="384"/>
+        <CursorPos X="1" Y="400"/>
+        <UsageCount Value="9"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\..\..\..\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <TopLine Value="1092"/>
+        <CursorPos X="47" Y="1108"/>
+        <UsageCount Value="9"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\..\..\..\lazarus\fpc\2.2.2\source\rtl\objpas\types.pp"/>
+        <UnitName Value="types"/>
+        <TopLine Value="78"/>
+        <CursorPos X="3" Y="94"/>
+        <UsageCount Value="9"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\..\..\..\lazarus\fpc\2.2.2\source\rtl\inc\dynarr.inc"/>
+        <TopLine Value="151"/>
+        <CursorPos X="36" Y="199"/>
+        <UsageCount Value="9"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="libusb.pas"/>
+        <UnitName Value="libusb"/>
+        <TopLine Value="386"/>
+        <CursorPos X="9" Y="401"/>
+        <UsageCount Value="13"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="..\..\..\..\lazarus\fpc\2.2.2\source\rtl\objpas\classes\classesh.inc"/>
+        <TopLine Value="1389"/>
+        <CursorPos X="17" Y="1396"/>
+        <UsageCount Value="9"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="..\..\..\..\lazarus\lcl\interfaces\win32\win32listsl.inc"/>
+        <TopLine Value="212"/>
+        <CursorPos X="1" Y="228"/>
+        <UsageCount Value="9"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="..\..\..\..\lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <TopLine Value="242"/>
+        <CursorPos X="1" Y="265"/>
+        <UsageCount Value="9"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="..\..\..\..\lazarus\lcl\include\customform.inc"/>
+        <TopLine Value="1119"/>
+        <CursorPos X="32" Y="1138"/>
+        <UsageCount Value="9"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\include\control.inc"/>
+        <TopLine Value="2465"/>
+        <CursorPos X="1" Y="2485"/>
+        <UsageCount Value="10"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\interfaces\win32\win32listsl.inc"/>
+        <TopLine Value="176"/>
+        <CursorPos X="1" Y="196"/>
+        <UsageCount Value="9"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\include\customform.inc"/>
+        <TopLine Value="1468"/>
+        <CursorPos X="1" Y="1488"/>
+        <UsageCount Value="9"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <TopLine Value="1080"/>
+        <CursorPos X="37" Y="1099"/>
+        <UsageCount Value="10"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\include\trackbar.inc"/>
+        <TopLine Value="152"/>
+        <CursorPos X="1" Y="172"/>
+        <UsageCount Value="9"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\include\wincontrol.inc"/>
+        <TopLine Value="7230"/>
+        <CursorPos X="44" Y="7239"/>
+        <UsageCount Value="9"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\include\custombitmap.inc"/>
+        <TopLine Value="313"/>
+        <CursorPos X="1" Y="333"/>
+        <UsageCount Value="10"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="..\output\i386-win32\debug.log"/>
+        <TopLine Value="72"/>
+        <CursorPos X="14" Y="51"/>
+        <SyntaxHighlighter Value="None"/>
+        <UsageCount Value="10"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\include\canvas.inc"/>
+        <TopLine Value="813"/>
+        <CursorPos X="16" Y="824"/>
+        <UsageCount Value="10"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\include\winapih.inc"/>
+        <TopLine Value="168"/>
+        <CursorPos X="10" Y="188"/>
+        <UsageCount Value="10"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\include\intfbasewinapi.inc"/>
+        <TopLine Value="1185"/>
+        <CursorPos X="3" Y="1191"/>
+        <UsageCount Value="10"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\include\winapi.inc"/>
+        <TopLine Value="654"/>
+        <CursorPos X="3" Y="656"/>
+        <UsageCount Value="10"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\comctrls.pp"/>
+        <UnitName Value="ComCtrls"/>
+        <TopLine Value="1225"/>
+        <CursorPos X="23" Y="1245"/>
+        <UsageCount Value="10"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="..\..\..\..\Programme\lazarus\fpc\2.2.5\source\rtl\inc\heaph.inc"/>
+        <TopLine Value="65"/>
+        <CursorPos X="10" Y="99"/>
+        <UsageCount Value="10"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="..\..\..\..\lazarus\fpc\2.2.2\source\rtl\inc\heaph.inc"/>
+        <TopLine Value="59"/>
+        <CursorPos X="11" Y="74"/>
+        <UsageCount Value="10"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="..\..\..\..\prometheus\source\uintfstrconsts.pas"/>
+        <UnitName Value="uIntfStrConsts"/>
+        <TopLine Value="670"/>
+        <CursorPos X="1" Y="696"/>
+        <UsageCount Value="10"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="revision.inc"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="2" Y="1"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="uusb.pas"/>
+        <UnitName Value="uUsb"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="193"/>
+        <CursorPos X="1" Y="180"/>
+        <UsageCount Value="11"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="..\..\..\DOCUMENTS@M&amp;&amp;1666&amp;&amp;5x&amp;&amp;1939739274\Software\src\umain.pas"/>
+        <UnitName Value="umain"/>
+        <TopLine Value="167"/>
+        <CursorPos X="1" Y="187"/>
+        <UsageCount Value="11"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="uusblibusbimplementation.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="109"/>
+        <CursorPos X="1" Y="118"/>
+        <UsageCount Value="10"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="ulibusbdevice.pas"/>
+        <UnitName Value="uLibUSBDevice"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="94"/>
+        <CursorPos X="110" Y="100"/>
+        <UsageCount Value="10"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="..\..\..\..\Source\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <TopLine Value="1086"/>
+        <CursorPos X="15" Y="1098"/>
+        <UsageCount Value="10"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="avrusblaboszi.rc"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <SyntaxHighlighter Value="None"/>
+        <UsageCount Value="10"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="avrusblaboszi.manifest"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <SyntaxHighlighter Value="None"/>
+        <UsageCount Value="10"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="changes.txt"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="24" Y="2"/>
+        <SyntaxHighlighter Value="None"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="..\..\..\..\..\..\home\chris\lazarus\lcl\include\trackbar.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="308"/>
+        <CursorPos X="1" Y="319"/>
+        <SyntaxHighlighter Value="FreePascal"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="..\..\..\..\..\..\home\chris\lazarus\lcl\interfaces\gtk2\gtk2int.pas"/>
+        <UnitName Value="Gtk2Int"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="423"/>
+        <CursorPos X="1" Y="441"/>
+        <SyntaxHighlighter Value="FreePascal"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit48>
+    </Units>
+    <JumpHistory Count="15" HistoryIndex="14">
+      <Position1>
+        <Filename Value="umain.pas"/>
+        <Caret Line="457" Column="39" TopLine="446"/>
+      </Position1>
+      <Position2>
+        <Filename Value="uchannel.pas"/>
+        <Caret Line="431" Column="22" TopLine="396"/>
+      </Position2>
+      <Position3>
+        <Filename Value="uchannel.pas"/>
+        <Caret Line="430" Column="22" TopLine="409"/>
+      </Position3>
+      <Position4>
+        <Filename Value="uchannel.pas"/>
+        <Caret Line="3" Column="53" TopLine="1"/>
+      </Position4>
+      <Position5>
+        <Filename Value="umain.pas"/>
+        <Caret Line="1" Column="52" TopLine="1"/>
+      </Position5>
+      <Position6>
+        <Filename Value="umain.pas"/>
+        <Caret Line="426" Column="84" TopLine="415"/>
+      </Position6>
+      <Position7>
+        <Filename Value="uchannel.pas"/>
+        <Caret Line="431" Column="1" TopLine="420"/>
+      </Position7>
+      <Position8>
+        <Filename Value="umain.pas"/>
+        <Caret Line="426" Column="84" TopLine="415"/>
+      </Position8>
+      <Position9>
+        <Filename Value="umain.pas"/>
+        <Caret Line="253" Column="3" TopLine="249"/>
+      </Position9>
+      <Position10>
+        <Filename Value="umain.pas"/>
+        <Caret Line="254" Column="108" TopLine="249"/>
+      </Position10>
+      <Position11>
+        <Filename Value="umain.pas"/>
+        <Caret Line="254" Column="1" TopLine="249"/>
+      </Position11>
+      <Position12>
+        <Filename Value="uchannel.pas"/>
+        <Caret Line="269" Column="22" TopLine="258"/>
+      </Position12>
+      <Position13>
+        <Filename Value="uchannel.pas"/>
+        <Caret Line="80" Column="28" TopLine="69"/>
+      </Position13>
+      <Position14>
+        <Filename Value="uchannel.pas"/>
+        <Caret Line="271" Column="13" TopLine="264"/>
+      </Position14>
+      <Position15>
+        <Filename Value="uchannel.pas"/>
+        <Caret Line="272" Column="3" TopLine="264"/>
+      </Position15>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="8"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <UnitOutputDirectory Value="..\output\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <CStyleOperator Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <Linking>
+      <Debugging>
+        <UseExternalDbgSyms Value="True"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Source Value="..\..\..\prometheus\src\umain.pas"/>
+        <Line Value="1905"/>
+      </Item1>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>

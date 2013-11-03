@@ -1,0 +1,7 @@
+0.8
+   - some linux changes
+0.7
+   - fixed Linux installer
+0.6
+   - new USB interface
+   - Linux version

@@ -1,0 +1,157 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Christian Ulrich <info@cu-tec.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: TFCHANNEL.ECHANNELNAME.TEXT
+msgid "eChannelName"
+msgstr ""
+
+#: TFCHANNEL.LABEL1.CAPTION
+msgid "Spannung"
+msgstr "Spannung"
+
+#: TFCHANNEL.LOFFSET.CAPTION
+msgid "Offset"
+msgstr "Offset"
+
+#: TFCHANNEL.RADIOBUTTON1.CAPTION
+msgid "DC"
+msgstr "DC"
+
+#: TFCHANNEL.RADIOBUTTON2.CAPTION
+msgid "AC"
+msgstr "AC"
+
+#: TFMAIN.ACINFO.CAPTION
+msgid "Info"
+msgstr "Info"
+
+#: TFMAIN.CAPTION
+msgid "USB AVR Lab Scope"
+msgstr "USB AVR Lab Oszilliskop"
+
+#: TFMAIN.GROUPBOX1.CAPTION
+msgid "Buffer"
+msgstr "Buffer"
+
+#: TFMAIN.LABEL1.CAPTION
+msgid "s"
+msgstr "s"
+
+#: TFMAIN.LABEL2.CAPTION
+msgid "Länge"
+msgstr "Länge"
+
+#: TFMAIN.LABEL3.CAPTION
+msgid "kSps"
+msgstr "kSps"
+
+#: TFMAIN.LKSPS.CAPTION
+msgid "lkSPS"
+msgstr ""
+
+#: TFMAIN.LSAMPLERATE.CAPTION
+msgid "Sample Rate"
+msgstr "Sample Rate"
+
+#: TFMAIN.LTIME.CAPTION
+msgid "Zeit"
+msgstr "Zeit"
+
+#: TFMAIN.LTRIGGERLEVEL.CAPTION
+msgid "Trigger Level"
+msgstr "Trigger Level"
+
+#: TFMAIN.LTRIGGERTYPE.CAPTION
+msgid "Trigger Typ"
+msgstr "Trigger Typ"
+
+#: TFMAIN.MILANGUAGE.CAPTION
+msgid "Sprache"
+msgstr "Sprache"
+
+#: TFMAIN.MIOPTIONS.CAPTION
+msgid "Optionen"
+msgstr "Optionen"
+
+#: TFMAIN.PANEL1.CAPTION
+msgid "Panel1"
+msgstr ""
+
+#: TFMAIN.SBTRIGGERCONTINUUS.HINT
+msgid "Kontinuierlich"
+msgstr "Kontinuierlich"
+
+#: TFMAIN.SBTRIGGERFALLING.HINT
+msgid "Fallende Flanke"
+msgstr "Fallende Flanke"
+
+#: TFMAIN.SBTRIGGERRAISING.HINT
+msgid "Steigende Flanke"
+msgstr "Steigende Flanke"
+
+#: umain.strchannel
+msgid "Kanal "
+msgstr "Kanal "
+
+#: umain.strerrorconnectingtodevice
+msgid "Fehler beim verbinden zum Gerät"
+msgstr "Fehler beim verbinden zum Gerät"
+
+#: umain.strinfo
+msgid ""
+"www:  http://www.ullihome.de\n"
+"mail: christian@ullihome.de\n"
+"\n"
+"Lizenz:\n"
+"Die Software und ihre Dokumentation wird wie sie ist zur\n"
+"Verfuegung gestellt. Da Fehlfunktionen auch bei ausfuehrlich\n"
+"getesteter Software durch die Vielzahl an verschiedenen\n"
+"Rechnerkonfigurationen niemals ausgeschlossen werden koennen,\n"
+"uebernimmt der Autor keinerlei Haftung fuer jedwede Folgeschaeden,\n"
+"die sich durch direkten oder indirekten Einsatz der Software\n"
+"oder der Dokumentation ergeben. Uneingeschraenkt ausgeschlossen\n"
+"ist vor allem die Haftung fuer Schaeden aus entgangenem Gewinn,\n"
+"Betriebsunterbrechung, Verlust von Informationen und Daten und\n"
+"Schaeden an anderer Software, auch wenn diese dem Autor bekannt\n"
+"sein sollten. Ausschliesslich der Benutzer haftet fuer Folgen der\n"
+"Benutzung dieser Software.\n"
+"\n"
+"erstellt mit Freepascal + Lazarus\n"
+"http://www.freepascal.org, http://lazarus.freepascal.org\n"
+"Iconset von:\n"
+"http://www.famfamfam.com/lab/icons/silk/\n"
+msgstr ""
+"www:  http://www.ullihome.de\n"
+"mail: christian@ullihome.de\n"
+"\n"
+"Lizenz:\n"
+"Die Software und ihre Dokumentation wird wie sie ist zur\n"
+"Verfuegung gestellt. Da Fehlfunktionen auch bei ausfuehrlich\n"
+"getesteter Software durch die Vielzahl an verschiedenen\n"
+"Rechnerkonfigurationen niemals ausgeschlossen werden koennen,\n"
+"uebernimmt der Autor keinerlei Haftung fuer jedwede Folgeschaeden,\n"
+"die sich durch direkten oder indirekten Einsatz der Software\n"
+"oder der Dokumentation ergeben. Uneingeschraenkt ausgeschlossen\n"
+"ist vor allem die Haftung fuer Schaeden aus entgangenem Gewinn,\n"
+"Betriebsunterbrechung, Verlust von Informationen und Daten und\n"
+"Schaeden an anderer Software, auch wenn diese dem Autor bekannt\n"
+"sein sollten. Ausschliesslich der Benutzer haftet fuer Folgen der\n"
+"Benutzung dieser Software.\n"
+"\n"
+"erstellt mit Freepascal + Lazarus\n"
+"http://www.freepascal.org, http://lazarus.freepascal.org\n"
+"Iconset von:\n"
+"http://www.famfamfam.com/lab/icons/silk/\n"
+
+#: umain.strnooszilloscopeconnected
+msgid "kein USB AVR Lab Oszilloskop verbunden"
+msgstr "kein USB AVR Lab Oszilloskop verbunden"
+

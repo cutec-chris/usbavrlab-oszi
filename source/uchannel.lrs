@@ -1,0 +1,28 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TfChannel','FORMDATA',[
+  'TPF0'#9'TfChannel'#8'fChannel'#4'Left'#2#0#6'Height'#3'c'#1#3'Top'#2#0#5'Wid'
+  +'th'#2's'#12'ClientHeight'#3'c'#1#11'ClientWidth'#2's'#8'TabOrder'#2#0#7'Vis'
+  +'ible'#8#10'DesignLeft'#3'('#2#9'DesignTop'#3#28#1#0#6'TLabel'#7'lOffset'#4
+  +'Left'#2#5#6'Height'#2#14#3'Top'#2#1#5'Width'#2'!'#7'Caption'#6#6'Offset'#11
+  +'ParentColor'#8#0#0#6'TLabel'#6'Label1'#4'Left'#2'('#6'Height'#2#27#3'Top'#2
+  +'@'#5'Width'#2'?'#9'Alignment'#7#8'taCenter'#8'AutoSize'#8#7'Caption'#6#15'S'
+  +'pannung'#13#10'/ div'#11'ParentColor'#8#0#0#9'TTrackBar'#8'tbOffset'#4'Left'
+  +#2#8#6'Height'#3'O'#1#3'Top'#2#17#5'Width'#2#21#3'Max'#3#232#3#8'OnChange'#7
+  +#14'tbOffsetChange'#11'Orientation'#7#10'trVertical'#8'Position'#3#242#1#9'T'
+  +'ickMarks'#7#9'tmTopLeft'#9'TickStyle'#7#6'tsNone'#7'Anchors'#11#5'akTop'#6
+  +'akLeft'#8'akBottom'#0#8'TabOrder'#2#0#0#0#7'TUpDown'#9'udVoltage'#4'Left'#2
+  +'5'#6'Height'#2'('#3'Top'#2'a'#5'Width'#2'.'#3'Min'#2#1#8'Position'#2#10#8'T'
+  +'abOrder'#2#1#4'Wrap'#8#7'OnClick'#7#14'udVoltageClick'#0#0#12'TRadioButton'
+  +#12'RadioButton1'#4'Left'#2'8'#6'Height'#2#22#3'Top'#3#247#0#5'Width'#2''''#7
+  +'Caption'#6#2'DC'#7'Checked'#9#7'Enabled'#8#5'State'#7#9'cbChecked'#8'TabOrd'
+  +'er'#2#2#0#0#12'TRadioButton'#12'RadioButton2'#4'Left'#2'8'#6'Height'#2#22#3
+  +'Top'#3#12#1#5'Width'#2'&'#7'Caption'#6#2'AC'#7'Enabled'#8#8'TabOrder'#2#3#7
+  +'TabStop'#8#0#0#5'TEdit'#12'eChannelName'#4'Left'#2'4'#6'Height'#2#23#3'Top'
+  +#2#4#5'Width'#2'<'#8'OnChange'#7#18'eChannelNameChange'#8'TabOrder'#2#4#4'Te'
+  +'xt'#6#12'eChannelName'#0#0#12'TColorButton'#7'cbColor'#4'Left'#2'4'#6'Heigh'
+  +'t'#2#25#3'Top'#2' '#5'Width'#2':'#11'BorderWidth'#2#2#15'ButtonColorSize'#2
+  +#16#11'ButtonColor'#7#8'clYellow'#5'Color'#7#9'clBtnFace'#0#0#6'TTimer'#6'Ti'
+  +'mer1'#8'Interval'#2'd'#7'OnTimer'#7#11'Timer1Timer'#4'left'#2#10#3'top'#2#25
+  +#0#0#0
+]);

@@ -1,0 +1,9 @@
+Source: usbavrlaboszi
+Package: usbavrlaboszi
+Version: VERSION
+Section: office
+Priority: optional
+Maintainer: Christian Ulrich <christian@ullihome.de>
+Architecture: ARCH
+Description: A Software to use the USB AVR Lab as Oszilloskope
+  
