@@ -62,7 +62,11 @@ msgid "Sample Rate"
 msgstr "Sample Rate"
 
 #: tfmain.ltime.caption
-msgid "Zeit"
+#, fuzzy
+#| msgid "Zeit"
+msgid ""
+"Zeit\n"
+"/ div\n"
 msgstr "Zeit"
 
 #: tfmain.ltriggerlevel.caption

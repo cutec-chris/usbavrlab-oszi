@@ -188,8 +188,8 @@ begin
   Height := StrToIntDef(Properties.StoredValue['HEIGHT'],Height);
   Width := StrToIntDef(Properties.StoredValue['WIDTH'],Width);
   sl := TStringList.Create;
-  if FileExistsUTF8(AppendPathDelim(AppendPathDelim(ProgramDirectory) + 'languages')+'languages.txt') then
-    sl.LoadFromFile(UTF8ToSys(AppendPathDelim(AppendPathDelim(ProgramDirectory) + 'languages')+'languages.txt'));
+  if FileExists(AppendPathDelim(AppendPathDelim(ProgramDirectory) + 'languages')+'languages.txt') then
+    sl.LoadFromFile((AppendPathDelim(AppendPathDelim(ProgramDirectory) + 'languages')+'languages.txt'));
   for i := 0 to sl.Count-1 do
     begin
       NewMItem := TMenuItem.Create(nil);
@@ -198,7 +198,7 @@ begin
       NewMItem.OnClick :=@NewMItemClick;
       NewMItem.GroupIndex := 11;
       miLanguage.Add(NewMItem);
-      if UTF8UpperCase(NewMItem.Caption) = UTF8UpperCase(Properties.StoredValue['LANGUAGE']) then
+      if UpperCase(NewMItem.Caption) = UpperCase(Properties.StoredValue['LANGUAGE']) then
         begin
           NewMItem.Checked := True;
           Language := Properties.StoredValue['LANGUAGE'];
@@ -667,7 +667,7 @@ end;
 
 procedure TfMain.SetLanguage(Lang: string);
 begin
-  Utils.LoadLanguage(Lang);
+  //Utils.LoadLanguage(Lang);
 end;
 
 procedure TfMain.ChannelUpdated(Channel: TfChannel);
@@ -681,4 +681,4 @@ initialization
   {$I umain.lrs}
 
 end.
-
+
