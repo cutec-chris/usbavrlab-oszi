@@ -1,3 +1,6 @@
 [submodule "components/general"]
 	path = components/general
 	url = https://github.com/cutec-chris/general.git
+[submodule "components/synapse"]
+	path = components/synapse
+	url = https://github.com/cutec-chris/Ararat-Synapse.git
